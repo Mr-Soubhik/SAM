@@ -8,7 +8,7 @@ It queries your package managers, including `apt`, `snap`, `flatpak`, `pip`, `np
 
 ## Building it yourself
 
-You'll need a C++17 compiler (`g++` or `clang++`), `cmake`, and the dev headers for SQLite3 and OpenSSL.
+You'll need a C++20 compiler (`g++` or `clang++`), `cmake`, and the dev headers for SQLite3 and OpenSSL.
 
 ### On Ubuntu or Debian
 

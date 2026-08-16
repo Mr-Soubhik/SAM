@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.14)
 project(sam)
 
-# Use C++17 for filesystem support
-set(CMAKE_CXX_STANDARD 17)
+# Use C++20 for designated initializers and std::filesystem
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # 1. Find Dependencies
@@ -27,7 +27,6 @@ target_link_libraries(sam
     ${SQLite3_LIBRARIES}
     ${OPENSSL_LIBRARIES}
     Threads::Threads
-    stdc++fs
 )
 
 # 5. Install Rule
