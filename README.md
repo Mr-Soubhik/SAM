@@ -71,3 +71,8 @@ Before it deletes anything, SAM works through a handful of checks. Core system d
 ## Contributing
 
 Bug reports, feature ideas, and pull requests are all welcome — head over to the GitHub repo to get involved.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
