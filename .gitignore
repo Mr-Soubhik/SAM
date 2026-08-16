@@ -1,0 +1,22 @@
+# Build output
+build/
+bin/
+*.o
+*.a
+*.so
+sam
+
+# Database & Runtime state
+*.db
+sam_ledger.db
+.sam/
+*.log
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.tmp
+
+# System files
+.DS_Store
